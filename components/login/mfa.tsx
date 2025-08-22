@@ -1,3 +1,4 @@
+import { AUTH_TOKEN } from "@/constants/auth";
 import { UserRound } from "lucide-react";
 import { useState } from "react";
 
@@ -29,7 +30,7 @@ export default function MFAStep({ username, token, onSuccess }: MFAStepType) {
 
     setSuccess(true);
 
-    localStorage.setItem("auth_token", token);
+    localStorage.setItem(AUTH_TOKEN, token);
 
     setTimeout(() => {
       onSuccess();

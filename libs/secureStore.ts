@@ -12,7 +12,7 @@
 import fs from "fs";
 import path from "path";
 
-const FILE_PATH = path.join(process.cwd(), "secureWords.json");
+const FILE_PATH = path.join(process.cwd(), "data", "secureWords.json");
 
 type SecureWordType = {
   username: string;
@@ -35,8 +35,6 @@ function loadStore(): SecureWordJsonType {
 }
 
 function saveStore(store: SecureWordJsonType) {
-  console.log("SW", store);
-
   fs.writeFileSync(FILE_PATH, JSON.stringify(store, null, 2));
 }
 
@@ -53,6 +51,7 @@ export function getSecureWord(username: string) {
 
 export function deleteSecureWord(username: string) {
   const store = loadStore();
-  delete store[username];
-  saveStore(store);
+  const { [username]: _removed, ...rest } = store;
+  void _removed;
+  saveStore(rest);
 }

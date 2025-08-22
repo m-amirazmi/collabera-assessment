@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const FILE_PATH = path.join(process.cwd(), "mfa.json");
+const FILE_PATH = path.join(process.cwd(), "data", "mfa.json");
 
 type MfaType = {
   username: string;
@@ -25,8 +25,6 @@ function loadStore(): MfaJsonType {
 }
 
 function saveStore(store: MfaJsonType) {
-  console.log("MFA", store);
-
   fs.writeFileSync(FILE_PATH, JSON.stringify(store, null, 2));
 }
 
@@ -43,6 +41,7 @@ export function getMfa(username: string) {
 
 export function deleteMfa(username: string) {
   const store = loadStore();
-  delete store[username];
-  saveStore(store);
+  const { [username]: _removed, ...rest } = store;
+  void _removed;
+  saveStore(rest);
 }

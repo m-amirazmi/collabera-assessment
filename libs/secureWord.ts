@@ -2,7 +2,7 @@ import crypto from "crypto";
 import { getSecureWord, setSecureWord } from "./secureStore";
 
 // openssl rand -base64 8
-const SECRET = "v3Gsuga1T5A=";
+const SECRET = process.env.HMAC_SECRET as string;
 
 export function generateSecureWord(username: string) {
   const issuedAt = Date.now();
