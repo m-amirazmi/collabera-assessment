@@ -24,6 +24,13 @@ Using npm:
 npm install
 ```
 
+Set the `.env.local` with this example:
+
+```
+JWT_SECRET=6vyVMafz3gQ
+HMAC_SECRET=v3Gsuga1T5A
+```
+
 ### 3.Run the Development Server
 
 ```bash
