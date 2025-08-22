@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Collabera Assessment Project
 
-## Getting Started
+This repository contains my submission for the technical assessment.  
+The project is built with **Next.js** using **TypeScript** as requested.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/m-amirazmi/collabera-assessment.git
+cd collabera-assessment
+```
+
+### 2. Install Dependencies
+
+Make sure you have <b>Node.js (v20+)</b> and <b>npm</b> installed.
+
+Using npm:
+
+```bash
+npm install
+```
+
+### 3.Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will start on http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/) – React framework
+- [Typescript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/) - CSS library
+- [DaisyUI v5](https://daisyui.com/) - Tailwind styling components
+- [Vitest](https://nextjs.org/docs/app/guides/testing/vitest) - Unit test library
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+.
+├── app/              # Next.js App Router pages
+├── components/       # Reusable UI components
+├── constants/        # Global constants
+├── data/             # Static/mock data
+├── hooks/            # Custom React hooks
+├── libs/             # Utilities & helper functions
+├── public/           # Static assets (images, icons, etc.)
+├── package.json      # Project metadata & dependencies
+├── tsconfig.json     # TypeScript configuration
+└── README.md         # Documentation
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📖 Instructions from Assessment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. The solution is implemented using Next.js.
+2. Code is written in TypeScript.
+3. You can run the project locally following the steps above.
+4. Repo link is shared as requested.
 
-## Deploy on Vercel
+## 🎥 Demo (Interview Prep)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If shortlisted, I’ll walk through:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Project setup and folder structure
+- Core logic and how the solution meets requirements
+- Running the app and demoing the features live
