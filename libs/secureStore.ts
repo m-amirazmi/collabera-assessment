@@ -35,8 +35,6 @@ function loadStore(): SecureWordJsonType {
 }
 
 function saveStore(store: SecureWordJsonType) {
-  console.log("SW", store);
-
   fs.writeFileSync(FILE_PATH, JSON.stringify(store, null, 2));
 }
 
