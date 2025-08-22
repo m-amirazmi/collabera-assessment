@@ -3,7 +3,7 @@
 import { menuItems } from "@/constants/menu";
 import { Search } from "lucide-react";
 import Link from "next/link";
-import MobileMenu from "./mobile-menu";
+import MobileMenu from "./mobileMenu";
 
 export default function Navbar() {
   return (

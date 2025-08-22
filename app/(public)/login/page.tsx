@@ -1,8 +1,8 @@
 "use client";
-import MFAStep from "@/components/login/mfa-step";
-import PasswordStep from "@/components/login/password-step";
-import UsernameStep from "@/components/login/username-step";
-import { LoginStep } from "@/constants/login-steps";
+import MFAStep from "@/components/login/mfa";
+import PasswordStep from "@/components/login/password";
+import UsernameStep from "@/components/login/username";
+import { LoginStep } from "@/constants/loginSteps";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
