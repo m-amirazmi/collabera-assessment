@@ -20,7 +20,6 @@ export default function MobileMenu() {
         onChange={handleToggleDrawer}
       />
       <div className="drawer-content">
-        {/* Page content here */}
         <label htmlFor="my-drawer" className="btn btn-ghost drawer-button">
           {openMobileMenu ? (
             <X strokeWidth={1.75} />

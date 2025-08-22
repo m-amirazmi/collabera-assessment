@@ -1,5 +1,5 @@
 import { clientHash } from "@/libs/clientHash";
-import { UserRound } from "lucide-react";
+import { Key } from "lucide-react";
 import { useState } from "react";
 
 type PasswordStepType = {
@@ -47,7 +47,7 @@ export default function PasswordStep({
       <div className="card-body">
         <h2 className="card-title">Password</h2>
         <label className="input validator w-full">
-          <UserRound className="opacity-50" strokeWidth={1.75} size={18} />
+          <Key className="opacity-50" strokeWidth={1.75} size={18} />
           <input
             name="password"
             type="password"

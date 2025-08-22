@@ -7,7 +7,7 @@ export default function MainLayout({
 }) {
   return (
     <div className="bg-base-200 h-screen flex flex-col">
-      <Navbar />
+      <Navbar title="Collabera" />
       {children}
     </div>
   );
