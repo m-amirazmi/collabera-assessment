@@ -3,5 +3,9 @@ export default function LoginLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div>login layout{children}</div>;
+  return (
+    <main className="bg-base-300 h-screen flex items-center justify-center">
+      {children}
+    </main>
+  );
 }
