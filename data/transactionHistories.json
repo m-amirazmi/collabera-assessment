@@ -1,0 +1,98 @@
+{
+  "348921507263": {
+    "date": "2023-08-24T12:46:55.000Z",
+    "recipient": {
+      "name": "Bloom Enterprise Sdn Bhd",
+      "references": "Pay for flower bouquet"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 1200,
+      "currency": "RM"
+    }
+  },
+  "920184736592": {
+    "date": "2023-07-14T12:46:55.000Z",
+    "recipient": {
+      "name": "Muhammad Andy Asmawi",
+      "references": "Transfer to my son"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 54810.16,
+      "currency": "RM"
+    }
+  },
+  "574839201685": {
+    "date": "2023-07-12T12:46:55.000Z",
+    "recipient": {
+      "name": "Utilities Company Sdn Bhd",
+      "references": "Pay utilities bill"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 100,
+      "currency": "RM"
+    }
+  },
+  "803217459120": {
+    "date": "2023-06-30T15:12:30.000Z",
+    "recipient": {
+      "name": "ABC Trading",
+      "references": "Purchase office supplies"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 320.5,
+      "currency": "RM"
+    }
+  },
+  "192837465029": {
+    "date": "2023-05-18T09:25:45.000Z",
+    "recipient": {
+      "name": "Ali Bin Ahmad",
+      "references": "Personal loan repayment"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 2000,
+      "currency": "RM"
+    }
+  },
+  "657483920184": {
+    "date": "2023-04-10T21:15:12.000Z",
+    "recipient": {
+      "name": "XYZ Car Service",
+      "references": "Car maintenance payment"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 450,
+      "currency": "RM"
+    }
+  },
+  "284759103682": {
+    "date": "2023-03-02T13:40:20.000Z",
+    "recipient": {
+      "name": "Sunrise Cafe",
+      "references": "Team lunch"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 150.75,
+      "currency": "RM"
+    }
+  },
+  "739201846572": {
+    "date": "2023-02-22T19:30:10.000Z",
+    "recipient": {
+      "name": "Green Energy Sdn Bhd",
+      "references": "Electric vehicle charging"
+    },
+    "transaction": {
+      "type": "DuitNow",
+      "amount": 60,
+      "currency": "RM"
+    }
+  }
+}
