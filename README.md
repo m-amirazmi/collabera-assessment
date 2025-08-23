@@ -3,6 +3,8 @@
 This repository contains my submission for the technical assessment.  
 The project is built with **Next.js** using **TypeScript** as requested.
 
+Live URL: [https://collabera-assessment.onrender.com/](https://collabera-assessment.onrender.com/)
+
 ---
 
 ## 🚀 Getting Started
